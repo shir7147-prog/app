@@ -30,6 +30,60 @@
 
 ---
 
+---
+
+## 🌐 עמודים באפליקציה
+
+### 🏠 Home Page (/)
+עמוד הבית של האפליקציה עם ברוכים הבאים למערכת.
+
+### 🔐 Login Page (/login)
+עמוד התחברות בסיסי עם שדות אימייל וסיסמה.
+
+### 🏋️ Workout Page (/workouts)
+מציג רשימת אימונים זמינים (Cardio, Strength, Yoga).
+
+### 🥗 Nutrition Page (/nutrition)
+מציג תוכנית תזונה יומית וקלוריות.
+
+### 📊 Progress Page (/progress)
+מציג נתוני משתמש ומדדי גוף בסיסיים.
+
+---
+
+## 🎨 Design System
+
+המערכת מבוססת על משתני CSS:
+
+- Primary Color: `#4f46e5`
+- Secondary Color: `#22c55e`
+- Background: `#f9fafb`
+- Text: `#111827`
+- Border: `#e5e7eb`
+
+העיצוב כולל:
+- כרטיסים (Cards)
+- כפתורים אחידים
+- Navbar עליון
+- התאמה למובייל (Responsive Design)
+
+---
+
+## 📱 רספונסיביות
+
+המערכת מותאמת גם למסכים קטנים:
+- Navbar משתנה לעמודה במובייל
+- כרטיסים מתרחבים בהתאם לרוחב המסך
+- שימוש ב־CSS Media Queries
+
+---
+
+## ⚙️ איך מריצים את הפרויקט
+
+```bash
+npm install
+npm start
+
 ## 📁 מבנה הפרויקט
 
 מטלה 1
